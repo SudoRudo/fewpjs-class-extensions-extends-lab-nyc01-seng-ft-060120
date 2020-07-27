@@ -25,16 +25,17 @@ class Triangle extends Polygon{
 class Square extends Polygon{
   
   get isValid(){
-    let i
-    let a
+    let i;
+    let a;
     for (i = 0; i< this.countSides; i++){
       if (this.countSides[i] === this.countSides[0]){
         a = true
       }else{
-        a = false
-        return a
+        a = false;
+        break;
       }
     }
+    return a
   }
   
   
