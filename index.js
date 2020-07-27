@@ -21,3 +21,18 @@ class Triangle extends Polygon{
   }
   
 }
+
+class Square extends Polygon{
+  
+  get isValid(){
+    let i
+    let
+    for (i = 0; i< this.countSides; i++){
+      if (this.countSides[i] === this.countSides[0]){
+        
+      }
+    }
+  }
+  
+  
+}
