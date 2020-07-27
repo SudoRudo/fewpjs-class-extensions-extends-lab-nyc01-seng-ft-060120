@@ -39,7 +39,7 @@ class Square extends Polygon{
   }
   
   get area(){
-    return this.countSides[0] * this.countSides[0]
+    return this.countSides[0] * this.countSides[1]
   }
   
   
