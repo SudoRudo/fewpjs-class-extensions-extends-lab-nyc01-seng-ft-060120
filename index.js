@@ -26,10 +26,13 @@ class Square extends Polygon{
   
   get isValid(){
     let i
-    let
+    let a
     for (i = 0; i< this.countSides; i++){
       if (this.countSides[i] === this.countSides[0]){
-        
+        a = true
+      }else{
+        a = false
+        return a
       }
     }
   }
