@@ -28,7 +28,7 @@ class Square extends Polygon{
     let i;
     let a;
     for (i = 0; i< this.countSides; i++){
-      if (this.countSides[i] === this.countSides[0]){
+      if (this.sidesArray[i] === this.sidesArray[0]){
         a = true
       }else{
         a = false;
